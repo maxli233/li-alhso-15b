@@ -1,4 +1,4 @@
--* {
+* {
   margin: 0;
   padding: 0;
 }
@@ -9,6 +9,25 @@ body {
   color: white;
   line-height: 1.5;
   text-align: center;
+}
+
+#showcase {
+  height: 300px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.3;
+  position: relative;
+  animation-name: floatingdown;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 30px;
 }
 
 #content {
@@ -80,4 +99,3 @@ body {
 .btn:hover {
   transform: rotateX(180deg);
 }
-
