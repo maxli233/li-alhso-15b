@@ -1,0 +1,79 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color:#ccffff;
+}
+       
+#form1 {
+  text-align: center;
+  width: 100%;
+  margin: 20px auto;
+}
+.menu-layout {
+  display: flex;
+  margin: auto auto;
+  max-width: 900px;
+  justify-content: space-between;
+}
+
+.menu-item {
+  text-align: center;
+  color: white;
+  background-color:#003cb3;
+  box-sizing: border-box;
+  padding: 20px 5px;
+  margin: 20px;
+  transition-property: background-color, border-radius;
+  transition-duration: 1s, 1s;
+  flex: 1;
+}
+
+.menu-item a:link,a:hover,a:visited,a:active {
+  color:white;
+  text-decoration:none;
+}
+
+.menu-item:hover {
+  background-color: navy;
+  border-radius: 25%;
+}
+
+.column-layout {
+  background-color:#ccddff;
+  max-width: 800px;
+  margin: 10px auto 0 auto;
+  padding: 20px 40px;
+  line-height: 1.65;
+  display: flex;
+}
+
+.main-column {
+  padding-left: 30px;
+  flex: 3;
+  order: 1;
+}
+
+.sidebar-one {
+  flex: 1;
+  order: 2;
+}
+
+.call-outs-container {
+  max-width: 800px;
+  margin: 10px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-out {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex-basis: 45%;
+}
+
+.call-out:nth-child(1) {
+  background-color: #ffff4d;
+}
+.call-out:nth-child(2) {
+  background-color: #70db70;
+
