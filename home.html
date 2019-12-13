@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome To My Store</h2>
+        <p>
+          We have all kinds of bikes from all different brands. We have the best
+          after-sales service. If your bike is from our store, we can fix it at
+          any time for free.
+        </p>
+      </div>
+
+      <div class="sidebar-one">
+        <img
+          src="https://cdn.glitch.com/7c2998ff-0dc0-43cd-818c-b82924d1bc14%2F%E4%B8%8B%E8%BD%BD%20(3)%20(3).png?v=1575347600414"
+          alt="Flowers in Chania"
+          width="200"
+        />
+        <h3>What We Can Do for You:</h3>
+        <ul>
+          <li>Selling New Bikes</li>
+          <li>Bicycle Recycling</li>
+          <li>Bicycle Maintenance</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Black Friday!</h4>
+        <p>
+          Everything is 30% off on Black Friday from 8am to 9pm!
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Bicycle Recycling</h4>
+        <p>
+          Take you old bike to our store and exchange to a brand new bike!
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+
+    <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
